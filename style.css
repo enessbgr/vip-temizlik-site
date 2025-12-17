@@ -1648,6 +1648,7 @@ html {
     font-weight: 600;
     margin-bottom: 30px;
     transition: 0.3s;
+    margin-top: 30px;
 }
 
 .backLink:hover {
