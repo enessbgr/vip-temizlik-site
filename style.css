@@ -1998,6 +1998,28 @@ blockquote {
         padding-top: 10px !important; /* Navbar yüksekliği kadar */
     }
 
+    /* --- IPHONE KAYDIRMA (SCROLL) KİLİDİNİ AÇMA --- */
+
+html, body {
+    /* Yüksekliği 100% yapma, otomatik bırak ki uzasın */
+    height: auto !important; 
+    min-height: 100% !important;
+    
+    /* Dikey kaydırmayı zorla aç */
+    overflow-y: scroll !important; 
+    
+    /* Yatay taşmayı engelle (Sağa sola oynamasın) */
+    overflow-x: hidden !important;
+    
+    /* iPhone için "yağ gibi" kaydırma motorunu tetikle */
+    -webkit-overflow-scrolling: touch !important;
+    
+    /* Dokunma eylemini serbest bırak */
+    touch-action: manipulation;
+    
+    position: relative;
+}
+
     header {
         /* Sadece içindeki butonlara tıklanabilsin, boşluklara tıklanmasın */
         pointer-events: none; 
