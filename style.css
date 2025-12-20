@@ -14,7 +14,7 @@ html {
 body {
     font-family: "Google Sans Flex", sans-serif;
     background-color: white;
-    overflow-x: hidden;
+    overflow-x: visible;
     background-color: #f4f9fd;
     position: relative;
 }
