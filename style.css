@@ -1998,13 +1998,7 @@ blockquote {
         padding-top: 10px !important; /* Navbar yüksekliği kadar */
     }
 
-    body, html, 
-    .page-header-section, 
-    .about-header-bg, 
-    .contact-header-bg,
-    section, div {
-        background-attachment: scroll !important;
-    }
+    
 
     /* Kutuların kenar boşluklarını ayarla */
     .container, 
