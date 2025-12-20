@@ -1998,7 +1998,15 @@ blockquote {
         padding-top: 10px !important; /* Navbar yüksekliği kadar */
     }
 
+    header {
+        /* Sadece içindeki butonlara tıklanabilsin, boşluklara tıklanmasın */
+        pointer-events: none; 
+    }
     
+    /* Ama içindeki logoya ve butona tıklayabilelim */
+    header a, header .hamburger, header .safirLogo {
+        pointer-events: auto;
+    }
 
     /* Kutuların kenar boşluklarını ayarla */
     .container, 
