@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.viptemizlikankara.com.tr/sitemap.xml
